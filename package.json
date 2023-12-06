@@ -4,7 +4,7 @@
   "description": "",
   "main": "inputs.js",
   "scripts": {
-    "test": "node src/day06/part1.js",
+    "test": "node src/day06/part2.js",
     "watch": "npm-watch"
   },
   "watch": {
