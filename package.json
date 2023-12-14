@@ -2,9 +2,10 @@
   "name": "@philihp/advent-of-code-2023",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "inputs.js",
   "scripts": {
-    "test": "node src/day06/part2.js",
+    "test": "node src/day03/part1.js",
     "watch": "npm-watch"
   },
   "watch": {
