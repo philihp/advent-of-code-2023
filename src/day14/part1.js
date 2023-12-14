@@ -7,9 +7,17 @@ pipe(
   transpose,
   map(
     pipe(
+      //
       join(''),
       split('#'),
-      map((s) => join('')(reverse(sortBy(identity, s)))),
+      map(
+        pipe(
+          //
+          sortBy(identity),
+          reverse,
+          join('')
+        )
+      ),
       join('#')
     )
   ),
